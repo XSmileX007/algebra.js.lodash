@@ -4,6 +4,18 @@ var _ = require("lodash");
 // 1.
 var dobro = "123456789011111";
 var lose = "1123456";
+const pi = 3.14;
+
+const nekaVar = "Nešto";
+
+dobro = "neki novi string";
+
+// error
+//pi = 10;
+
+console.log("PI= " + pi);
+console.log("Neka varijabla= " + nekaVar);
+
 var jedinstveniZnakovi = function (password) {
   // vas kod
   var mojNiz = [];
